@@ -6,54 +6,34 @@ export const Footer = () => {
     <footer className="hidden lg:block h-20 w-full border-t-2 border-slate-200 p-2">
       <div className="max-w-screen-lg mx-auto flex items-center justify-evenly h-full">
         <Button size="lg" variant="ghost" className="w-full">
-          <Image 
-            src="/hr.svg" 
-            alt="Croatian" 
-            height={32} 
+          <Image
+            src="/banner-llm.svg"
+            alt="Croatian"
+            height={32}
             width={40}
             className="mr-4 rounded-md"
           />
-          Croatian
+          Hallucination in Large Language Models
         </Button>
         <Button size="lg" variant="ghost" className="w-full">
-          <Image 
-            src="/es.svg" 
-            alt="Spanish" 
-            height={32} 
+          <Image
+            src="/certification-exam.svg"
+            alt="Croatian"
+            height={32}
             width={40}
             className="mr-4 rounded-md"
           />
-          Spanish
+          AI-900: Azure AI Fundamentals
         </Button>
         <Button size="lg" variant="ghost" className="w-full">
-          <Image 
-            src="/fr.svg" 
-            alt="French" 
-            height={32} 
+          <Image
+            src="/certification-exam.svg"
+            alt="Croatian"
+            height={32}
             width={40}
             className="mr-4 rounded-md"
           />
-          French
-        </Button>
-        <Button size="lg" variant="ghost" className="w-full">
-          <Image 
-            src="/it.svg" 
-            alt="Italian" 
-            height={32} 
-            width={40}
-            className="mr-4 rounded-md"
-          />
-          Italian
-        </Button>
-        <Button size="lg" variant="ghost" className="w-full">
-          <Image 
-            src="/jp.svg" 
-            alt="Japanese" 
-            height={32} 
-            width={40}
-            className="mr-4 rounded-md"
-          />
-          Japanese
+          AI-102: Designing and Implementing AI Solution
         </Button>
       </div>
     </footer>
