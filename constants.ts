@@ -2,23 +2,23 @@ export const POINTS_TO_REFILL = 10;
 
 export const quests = [
   {
-    title: "Earn 20 XP",
-    value: 20,
+    title: "200 XP - you've learned how to use the mouse",
+    value: 200,
   },
   {
-    title: "Earn 50 XP",
-    value: 50,
+    title: "350 XP - you've surprised even yourself",
+    value: 350,
   },
   {
-    title: "Earn 100 XP",
-    value: 100,
-  },
-  {
-    title: "Earn 500 XP",
+    title: "500 XP - you are now on a level of toddler",
     value: 500,
   },
   {
-    title: "Earn 1000 XP",
+    title: "1000 XP - there is some potential in you",
     value: 1000,
+  },
+  {
+    title: "5000 XP - you are now a master of the universe",
+    value: 5000,
   },
 ];
